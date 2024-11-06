@@ -1,0 +1,85 @@
+@media (min-width: 420px) and (max-width: 979px) {
+    .movie-card__second-space {
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .ant-space {
+        row-gap: 0;
+    }
+    .movie-card__poster {
+        width: 60px;
+        height: 91px;
+        background-size: contain;
+    }
+    .movie-card__title {
+        box-sizing: border-box;
+        height: auto;
+        width: 254px;
+    }  
+    .ant-typography.movie-card__name {
+        height: 26px;
+        overflow: hidden;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    .movie-card__date {
+        display: block;
+        height: 20px;
+        width: 100%;
+    }
+    .movie-card__genre {
+        height: 45px;
+    }
+    .movie-card__main-info {
+        padding: 0px 10px;
+    }
+    .movie-card__description {
+        display: block;
+        box-sizing: border-box;
+        padding: 0px 5px;
+        height: 88px;
+        overflow: hidden;
+    }
+    .movie-card__rate {
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        padding: 1px 3px;
+        font-size: 14px;
+        font-weight: 600;
+        align-self: start;
+        margin-bottom: 68px;
+    }
+    .movie-card__rate--lowest {
+        border: 3px solid #E90000;
+    }
+    .movie-card__rate--low {
+        border: 3px solid #E97E00 ;
+    }
+    .movie-card__rate--middle {
+        border: 3px solid #E9D100;
+    }
+    .movie-card__rate--high {
+        border: 3px solid #66E900;
+    }
+    .movie-card__rate--highest {
+        border: 3px solid #66E900;
+        padding: 1px 5px;
+    }
+    .movie-card__stars {
+        width: auto;
+        display: flex;
+        margin-bottom: 15px;
+        height: 20px;
+        box-sizing: border-box;
+        padding-left: 126px;
+    }
+    /*Important применен для переопределения библиотечного стиля, касающегося звезд внутри, 
+    так как доступа к нему нет, Design Tokena нет  */
+    .ant-rate .ant-rate-star {
+        margin-inline-end: 3px!important;
+    }
+}

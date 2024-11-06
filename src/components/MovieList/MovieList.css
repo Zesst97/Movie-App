@@ -1,0 +1,17 @@
+.ant-row {
+    display: flex;
+    max-width: 980px;
+    margin: 0;
+}
+
+.ant-empty-image {
+    display: none;
+}
+
+.ant-empty-description {
+    display: none;
+}
+
+.movie-list-section {
+    /* height: 100%; */
+}
